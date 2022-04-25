@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+}
+.content {
+    float: left;
+    width: 25%;
+    margin-left: 25%;
+    margin-top: 10%;
+    display: flex;
+    width: 50%;
+    color: hsl(0, 0%, 95%);
+    font-family: Big Shoulders Display;
+    font-weight: 700;
+}
+.content p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: Lexend Deca;
+    font-weight: 400;
+    font-size: 12px;
+}
+.se {
+    background-color: hsl(31, 77%, 52%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 5% 3% 0% 3%;
+    border-radius: 5px;
+}
+.se:hover {
+    background-color: brown;
+}
+.content button {
+    cursor: pointer;
+    margin-top: 10%;
+    border-radius: 20px;
+    padding: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.su {
+    background-color: hsl(184, 100%, 22%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 5% 3% 0% 3%;
+    border-radius: 5px;
+}
+.su:hover {
+    background-color: brown;
+}
+.lu {
+    background-color: hsl(179, 100%, 13%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 5% 3% 5% 3%;
+    border-radius: 5px;
+}
+.lu:hover {
+    background-color: brown;
+}
+.at { font-size: 10px; 
+    text-align: end;
+    display: block;
+ }
+.at a { color: hsl(228, 45%, 44%); }
+
+@media screen and (max-width: 375px) {
+    .content {
+      width: 100%;
+      display: block;
+      margin: 5%;
+    }
+}
